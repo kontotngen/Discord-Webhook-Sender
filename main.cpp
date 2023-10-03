@@ -11,7 +11,6 @@ bool replace(std::string& str, const std::string& from, const std::string& to) {
 }
 
 int main() {
-  SetConsoleTitleA("Discord Webhook Sender");
   printf("made by ProB1#0100\n");
   DWHook webhook;
   std::string text = webhook.normal;
