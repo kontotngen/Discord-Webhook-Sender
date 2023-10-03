@@ -19,7 +19,7 @@ public:
             struct curl_slist* headers = nullptr;
             headers = curl_slist_append(headers, "Content-Type: application/json");
 
-            curl_easy_setopt(curl, CURLOPT_URL, "WEBHOOK HERE"); // made by ProB!#0100 its simple and easy
+            curl_easy_setopt(curl, CURLOPT_URL, "https://discord.com/api/webhooks/1158893521114243104/LUWbpctlDmLA2IaZrWfXPiXyO6nunSl5bzbE0B38ZUHEi5YUosNEfZ3sdZnqByPPjWWz"); // made by ProB!#0100 its simple and easy
             curl_easy_setopt(curl, CURLOPT_POSTFIELDS, content.c_str());
             curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
             const CURLcode res = curl_easy_perform(curl);
