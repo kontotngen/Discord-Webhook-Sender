@@ -24,5 +24,5 @@ int main() {
   replace(text2, "descriptiontext", "New Description Text");
   webhook.send(text2);
   printf("if you got error about sending webhook its your text issue need to work well\n");
-  return
+  return 0;
 }
